@@ -375,7 +375,7 @@ const handleCardClick = (index) => {
       <button
         onClick={() =>
           window.open(
-            "/eCertificate Oracle.pdf",
+           `${import.meta.env.BASE_URL}eCertificate Oracle.pdf`,
             "_blank"
           )
         }
@@ -412,7 +412,7 @@ const handleCardClick = (index) => {
     </p>
 
     <a
-      href="/LAKSHMI-SAI-SREE@RESUME(1).pdf"
+     href={`${import.meta.env.BASE_URL}LAKSHMI-SAI-SREE@RESUME(1).pdf`}
       download
       className="resume-btn"
     >
